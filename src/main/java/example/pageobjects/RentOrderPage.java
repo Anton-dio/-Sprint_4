@@ -1,4 +1,4 @@
-package pageobjects;
+package example.pageobjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -10,19 +10,19 @@ public class RentOrderPage {
     //локатор для поля Срок аренды
     private By rentalPeriod = By.className("Dropdown-placeholder");
     //локатор для поля Срок аренды - сутки
-    private By period_1day = By.xpath(".//*[@class='Dropdown-option'][1]");
+    private By period1day = By.xpath(".//*[@class='Dropdown-option'][1]");
     //локатор для поля Срок аренды - 2 суток
-    private By period_2days = By.xpath(".//*[@class='Dropdown-option'][2]");
+    private By period2days = By.xpath(".//*[@class='Dropdown-option'][2]");
     //локатор для поля Срок аренды - 3 суток
-    private By period_3days = By.xpath(".//*[@class='Dropdown-option'][3]");
+    private By period3days = By.xpath(".//*[@class='Dropdown-option'][3]");
     //локатор для поля Срок аренды - 4 суток
-    private By period_4days = By.xpath(".//*[@class='Dropdown-option'][4]");
+    private By period4days = By.xpath(".//*[@class='Dropdown-option'][4]");
     //локатор для поля Срок аренды - 5 суток
-    private By period_5days = By.xpath(".//*[@class='Dropdown-option'][5]");
+    private By period5days = By.xpath(".//*[@class='Dropdown-option'][5]");
     //локатор для поля Срок аренды - 6 суток
-    private By period_6days = By.xpath(".//*[@class='Dropdown-option'][6]");
+    private By period6days = By.xpath(".//*[@class='Dropdown-option'][6]");
     //локатор для поля Срок аренды - 7 суток
-    private By period_7days = By.xpath(".//*[@class='Dropdown-option'][7]");
+    private By period7days = By.xpath(".//*[@class='Dropdown-option'][7]");
     //Цвет самоката Церный жемчуг
     private By blackPearl = By.xpath(".//input[@id='black']");
     //Цвет самоката Серая безысходность
@@ -47,19 +47,19 @@ public class RentOrderPage {
     public void choosePeriod(int days) {
         driver.findElement(rentalPeriod).click();
         if (days == 1) {
-            driver.findElement(period_1day).click();
+            driver.findElement(period1day).click();
         } else if (days == 2) {
-            driver.findElement(period_2days).click();
+            driver.findElement(period2days).click();
         } else if (days == 3) {
-            driver.findElement(period_3days).click();
+            driver.findElement(period3days).click();
         } else if (days == 4) {
-            driver.findElement(period_4days).click();
+            driver.findElement(period4days).click();
         } else if (days == 5) {
-            driver.findElement(period_5days).click();
+            driver.findElement(period5days).click();
         } else if (days == 6) {
-            driver.findElement(period_6days).click();
+            driver.findElement(period6days).click();
         } else if (days == 7) {
-            driver.findElement(period_7days).click();
+            driver.findElement(period7days).click();
         }
     }
 

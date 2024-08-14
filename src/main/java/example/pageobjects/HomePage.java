@@ -15,33 +15,26 @@ public class HomePage {
     //локатор для нижней кнопки Заказать
     private By lowerOrderButton = By.className("Button_Middle__1CSJM");
     //Локаторы кнопкок вопросов раздела Вопросы о важном
-    private By buttonsImpotantQuestionsList_0 = By.id("accordion__heading-0");
-    private By buttonsImpotantQuestionsList_1 = By.id("accordion__heading-1");
-    private By buttonsImpotantQuestionsList_2 = By.id("accordion__heading-2");
-    private By buttonsImpotantQuestionsList_3 = By.id("accordion__heading-3");
-    private By buttonsImpotantQuestionsList_4 = By.id("accordion__heading-4");
-    private By buttonsImpotantQuestionsList_5 = By.id("accordion__heading-5");
-    private By buttonsImpotantQuestionsList_6 = By.id("accordion__heading-6");
-    private By buttonsImpotantQuestionsList_7 = By.id("accordion__heading-7");
+    private By buttonsImpotantQuestionsList0 = By.id("accordion__heading-0");
+    private By buttonsImpotantQuestionsList1 = By.id("accordion__heading-1");
+    private By buttonsImpotantQuestionsList2 = By.id("accordion__heading-2");
+    private By buttonsImpotantQuestionsList3 = By.id("accordion__heading-3");
+    private By buttonsImpotantQuestionsList4 = By.id("accordion__heading-4");
+    private By buttonsImpotantQuestionsList5 = By.id("accordion__heading-5");
+    private By buttonsImpotantQuestionsList6 = By.id("accordion__heading-6");
+    private By buttonsImpotantQuestionsList7 = By.id("accordion__heading-7");
     //Массив из локаторов кнопок раздела Вопрсоы о важном
-    private By[] buttonsImpotantQuestionsArray = {buttonsImpotantQuestionsList_0, buttonsImpotantQuestionsList_1, buttonsImpotantQuestionsList_2, buttonsImpotantQuestionsList_3, buttonsImpotantQuestionsList_4, buttonsImpotantQuestionsList_5, buttonsImpotantQuestionsList_6, buttonsImpotantQuestionsList_7};
+    private By[] buttonsImpotantQuestionsArray = {buttonsImpotantQuestionsList0, buttonsImpotantQuestionsList1, buttonsImpotantQuestionsList2, buttonsImpotantQuestionsList3, buttonsImpotantQuestionsList4, buttonsImpotantQuestionsList5, buttonsImpotantQuestionsList6, buttonsImpotantQuestionsList7};
     //локаторы к текстовым ответам раздела Вопросы о важном
-    private By answersImpotantQuestionsList_0 = By.xpath(".//div[@id='accordion__panel-0']/p");
-    private By answersImpotantQuestionsList_1 = By.xpath(".//div[@id='accordion__panel-1']/p");
-    private By answersImpotantQuestionsList_2 = By.xpath(".//div[@id='accordion__panel-2']/p");
-    private By answersImpotantQuestionsList_3 = By.xpath(".//div[@id='accordion__panel-3']/p");
-    private By answersImpotantQuestionsList_4 = By.xpath(".//div[@id='accordion__panel-4']/p");
-    private By answersImpotantQuestionsList_5 = By.xpath(".//div[@id='accordion__panel-5']/p");
-    private By answersImpotantQuestionsList_6 = By.xpath(".//div[@id='accordion__panel-6']/p");
-    private By answersImpotantQuestionsList_7 = By.xpath(".//div[@id='accordion__panel-7']/p");
-    private By answersImpotantQuestionsList0;
-    private By answersImpotantQuestionsList1;
-    private By answersImpotantQuestionsList2;
-    private By answersImpotantQuestionsList3;
-    private By answersImpotantQuestionsList4;
-    private By answersImpotantQuestionsList5;
-    private By answersImpotantQuestionsList6;
-    private By answersImpotantQuestionsList7;
+    private By answersImpotantQuestionsList0 = By.xpath(".//div[@id='accordion__panel-0']/p");
+    private By answersImpotantQuestionsList1 = By.xpath(".//div[@id='accordion__panel-1']/p");
+    private By answersImpotantQuestionsList2 = By.xpath(".//div[@id='accordion__panel-2']/p");
+    private By answersImpotantQuestionsList3 = By.xpath(".//div[@id='accordion__panel-3']/p");
+    private By answersImpotantQuestionsList4 = By.xpath(".//div[@id='accordion__panel-4']/p");
+    private By answersImpotantQuestionsList5 = By.xpath(".//div[@id='accordion__panel-5']/p");
+    private By answersImpotantQuestionsList6 = By.xpath(".//div[@id='accordion__panel-6']/p");
+    private By answersImpotantQuestionsList7 = By.xpath(".//div[@id='accordion__panel-7']/p");
+
     //Массив локаторов из текстовых ответов раздела Вопрсоы о важном
     private By[] answersImpotantQuestionsArray = {answersImpotantQuestionsList0, answersImpotantQuestionsList1, answersImpotantQuestionsList2, answersImpotantQuestionsList3, answersImpotantQuestionsList4, answersImpotantQuestionsList5, answersImpotantQuestionsList6, answersImpotantQuestionsList7};
     private Object expectedAnswersImpotantQuestions;
